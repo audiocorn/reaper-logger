@@ -6,6 +6,7 @@
 // @copyright    2018 Bowen Yin
 // @match        *artofproblemsolving.com/reaper/reaper.php?id=*
 // @require      http://code.jquery.com/jquery-3.3.1.min.js
+// @downloadURL  https://raw.githubusercontent.com/BowenYin/auto-reaper/master/logger.js?token=AdBGDfi_Aj5rPnqrBnY8RcNgtm-KGOEyks5ayGBowA%3D%3D
 // ==/UserScript==
 
 var callback=function(mutationsList) {
