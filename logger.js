@@ -2,14 +2,13 @@
 // @name         Reaper Logger
 // @namespace    http://www.artofproblemsolving.com/reaper
 // @version      1.0
-// @description  Saves all incoming reaps into the Google Spreadsheet.
+// @description  Saves all incoming reaps into the Google Sheet.
 // @copyright    2018 Bowen Yin
 // @match        *artofproblemsolving.com/reaper/reaper.php?id=*
 // @require      http://code.jquery.com/jquery-3.3.1.min.js
 // ==/UserScript==
 
 var callback=function(mutationsList) {
-  console.log("REAP");
   var reap=document.getElementById("recent-reaps").getElementsByTagName("p")[0].innerText;
   reap=reap.replace(",","").replace(" reaped on ","/").replace(" and gained ","/");
   var array=reap.split("/");
