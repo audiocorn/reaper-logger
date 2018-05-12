@@ -9,7 +9,7 @@
 setInterval(autoreap,800);
 function autoreap() {
 	try {
-    var time1="9 minutes, 16 seconds"; // REGULAR REAP TIME: change this value
+    		var time1="9 minutes, 16 seconds"; // REGULAR REAP TIME: change this value
 		// You must follow the format shown on the reaper clock.
 		var time2="19 minutes, 43 seconds"; // FREE REAP TIME: will reap at this time if you have free reaps.
 		// Free reap time should always be greater than regular reap time.
