@@ -24,4 +24,4 @@ Google Apps Script to manage incoming real-time reap logs in the spreadsheet.
 4. Open [Reaper](www.aops.com/reaper) and you're done. To change the values later, simply go to the userscript you created and then reload Reaper.
 
 ##### IMPORTANT:
-You must keep your laptop on if you want Auto-Reaper to keep running during the night.
+You must keep your laptop on if you want Auto-Reaper to continue running during the night.
