@@ -11,7 +11,7 @@ Main script to automatically reap at a set time. Use Tampermonkey to inject the 
 ###### spreadsheet.gs
 Google Apps Script to manage incoming real-time reap logs in the spreadsheet.
 
-### Instructions for using the auto-reaper script
+### Instructions for using the script
 #### Easy Way
 1. Open `reaper.js` and copy everything after the gray lines (lines 1-8).
 2. Open [Reaper](www.aops.com/reaper), enter a game, and open the console. (⌘⌥J, ⌃⇧J)
@@ -22,3 +22,6 @@ Google Apps Script to manage incoming real-time reap logs in the spreadsheet.
 2. Install [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) and create a new userscript.
 3. Replace all the existing stuff with the code you copied and change the values for reap times.
 4. Open [Reaper](www.aops.com/reaper) and you're done. To change the values later, simply go to the userscript you created and then reload Reaper.
+
+##### IMPORTANT:
+You must keep your laptop on if you want Auto-Reaper to keep running during the night.
