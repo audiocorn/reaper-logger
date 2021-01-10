@@ -27,3 +27,4 @@ Google Apps Script to manage incoming real-time reap logs in the spreadsheet.
 You must keep your laptop on if you want Auto-Reaper to continue running during the night.
 
 I am not responsible for any consequences you incur by using this script to play Reaper.
+![](https://87f7290bbb154c8753a737c7b24a6d1e.m.pipedream.net/auto-reaper)
