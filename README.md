@@ -24,4 +24,5 @@ Google Apps Script to manage incoming real-time reap logs in the spreadsheet.
    
 ##### IMPORTANT:
 You must keep your laptop on and the browser tab open if you want the logger to continue running.
+
 I am not responsible for any consequences you incur by using this script.
