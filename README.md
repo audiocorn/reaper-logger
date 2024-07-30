@@ -9,7 +9,12 @@ Logs all reaps real-time into a Google Spreadsheet: [link to be added later]
 Google Apps Script to manage incoming real-time reap logs in the spreadsheet.
 
 ### How to use the spreadsheet script
-[to follow]
+1. On the Google Sheet that you would like to use to log reaps, navigate to Extensions in the toolbar and click on Apps Script.
+2. Paste the contents of `spreadsheet.gs` into `Code.gs`.
+3. Click Deploy -> New deployment, and select Web app from the list of deployment types.
+4. (Important if you wish to protect the sheet to prevent others from editing reaps!) Set the web app to execute as "Me".
+5. Click Deploy and grant the script access to your spreadsheets (this will open in a new window).
+6. Copy the Web app url and paste it into `logger.js` in the GET request.
 
 ### How to use the logger script
 #### Easy Way
