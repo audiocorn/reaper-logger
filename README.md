@@ -17,8 +17,11 @@ Google Apps Script to manage incoming real-time reap logs in the spreadsheet.
 Here is a current example: http://tiny.cc/90log
 
 Here are some past examples: 
+
 https://docs.google.com/spreadsheets/d/1sekvFCe-6kVCPxH5vcg26MdL4GARJ3MGEtd30QrwfN0 (Game 77)
+
 https://docs.google.com/spreadsheets/d/1HrJOX0t6R956lTl_nwRuj7uyhuD6LsXdOBC4cUATCHg (Game 75)
+
 https://tiny.cc/reaperlog (Games 64-66)
 
 ### How to use the spreadsheet script
