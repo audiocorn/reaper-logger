@@ -14,6 +14,13 @@ No longer recommended for use (reap times are only precise to the second, and ti
 ###### spreadsheet.gs
 Google Apps Script to manage incoming real-time reap logs in the spreadsheet.
 
+Here is a current example: http://tiny.cc/90log
+
+Here are some past examples: 
+https://docs.google.com/spreadsheets/d/1sekvFCe-6kVCPxH5vcg26MdL4GARJ3MGEtd30QrwfN0 (Game 77)
+https://docs.google.com/spreadsheets/d/1HrJOX0t6R956lTl_nwRuj7uyhuD6LsXdOBC4cUATCHg (Game 75)
+https://tiny.cc/reaperlog (Games 64-66)
+
 ### How to use the spreadsheet script
 1. On the Google Sheet that you would like to use to log reaps, navigate to Extensions in the toolbar and click on Apps Script.
 2. Paste the contents of `spreadsheet.gs` into `Code.gs`.
