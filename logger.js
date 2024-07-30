@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Reaper Logger
 // @namespace    http://www.artofproblemsolving.com/reaper
-// @version      1.0
+// @version      2.0
 // @description  Saves all incoming reaps into the Google Sheet.
-// @copyright    2018 Bowen Yin
+// @copyright    2018 Bowen Yin (revised 2024 by audiocorn)
 // @match        *artofproblemsolving.com/reaper/reaper.php?id=*
 // @require      http://code.jquery.com/jquery-3.3.1.min.js
 // @downloadURL  https://raw.githubusercontent.com/BowenYin/auto-reaper/master/logger.js
@@ -47,8 +47,8 @@ var callback=function(mutationsList) {
   var data="time="+array[1]+"&user="+array[0]+"&raw="+array[4]+"&actual="+array[2]+"&bonus="+array[3];
   console.log(data);
   request=$.ajax( {
-	url: "https://cors-anywhere.herokuapp.com/https://script.google.com/macros/s/AKfycbwKnGD78NKZKBdSsqcAllR6X050yVHfeENEW051Ud5r4lq62BM/exec",
-	method: "POST",
+	url: "https://script.google.com/macros/s/AKfycbxVhiQPkvCxkJFLZN7m6WQd92eXV4WGAIyw7iFRYEpoTBHyE7lBz_9plRtk3nQf_qQLIA/exec",
+	method: "GET",
 	data: data
   });
 };
