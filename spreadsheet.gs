@@ -28,7 +28,8 @@ function handleResponse(e) {
   
   var lock=LockService.getScriptLock();
 
-  // check that we're not inserting a duplicate reap
+  // check that we're not inserting a duplicate reap -- lines 34 to 57 can simply be replaced with the following line if duplicate reaps are not an issue:
+  // sheet1.insertRowBefore(3).getRange(3,1,1,values.length).setValues([values])
 
   // read off the last reap from the sheet
   var data=sheet1.getRange(3,1,1,2).getValues();
