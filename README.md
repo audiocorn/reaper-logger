@@ -2,8 +2,15 @@
 Scripts to log AoPS Reaper into a real-time Google Sheet.
 
 ### Files
+
+###### source-logger.py
+Logs all reaps real-time into a Google Spreadsheet by accessing Reaper's source code.
+
+
 ###### logger.js
-Logs all reaps real-time into a Google Spreadsheet: [link to be added later]
+Logs all reaps real-time into a Google Spreadsheet by running a script on the Reaper page.
+
+No longer recommended for use (reap times are only precise to the second, and times displayed are client-side -- see notes on `source-logger.py` for more information).
 
 ###### spreadsheet.gs
 Google Apps Script to manage incoming real-time reap logs in the spreadsheet.
